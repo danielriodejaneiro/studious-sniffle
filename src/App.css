@@ -1,4 +1,7 @@
 /* not scss, so better organize a bit */
+/* MEDIA QUERIES ARE AT THE END OF THE FILE FOR WEIGHT */
+/*CORE APP*/
+
 .App {
     /* flex properties */
     display: flex;
@@ -9,7 +12,17 @@
 }
 
 .main-container {
+    /* flex properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
+    /* styling */
+    /*background-image: url("../public/media/background.jpg");*/
+    background-image: url("media/background.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    /*background-size: cover;*/
 }
 
 .App-title {
@@ -130,4 +143,17 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+}
+
+
+/*MEDIA QUERIES*/
+@media all and (min-width: 768px){
+    .face {
+        position: relative;
+        left: -80px;
+        top: -150px;
+    }
+    .main-container {
+        background-position: center;
+    }
 }
