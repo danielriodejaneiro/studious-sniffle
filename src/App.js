@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -9,20 +8,31 @@ class App extends Component {
                 <article className="main-container">
                     <section className="face">
                         <div className="eyes-row">
-                            <div className="eye"></div>
-                            <div className="eye"></div>
+                            <div className="eye">
+                                <div className="girl-of-the-eye"></div>
+                            </div>
+                            <div className="eye">
+                                <div className="girl-of-the-eye"></div>
+                            </div>
                         </div>
                         <div className="nose-mouth">
-                            <div className="nose"></div>
+                            <div className="nose-row">
+                                <div className="nose"></div>
+                            </div>
                             <div className="mouth"></div>
                         </div>
                     </section>
                 </article>
                 <footer className="control-panel">
-                    <h1 className="App-title">Welcome to React</h1>
+                    <h1 className="app-title">Welcome to Reactron</h1>
+                    <h2 className="app-subtitle">My simple and fake robot</h2>
                     <div className="controls">
-                        <button>Start</button>
-                        <input type="button" value="Stop"/>
+                        <button>Reset</button>
+                        <button>Share</button>
+                        <button>3</button>
+                        <input type="button" value="4"/>
+                        <input type="button" value="5"/>
+                        <input type="button" value="6"/>
                     </div>
                 </footer>
             </main>
