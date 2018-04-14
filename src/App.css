@@ -1,6 +1,18 @@
-/* not scss, so better organize a bit */
-/* MEDIA QUERIES ARE AT THE END OF THE FILE FOR WEIGHT */
-/*CORE APP*/
+/* File structure:**********
+*
+*  - App structure
+*  - Robot's elements
+*       - Face
+*         - Eyes-Row
+*         - Nose-Mouth
+*  - Control panel
+*       - Title
+*       - Sub-title
+*       - Controls
+*  - MEDIA QUERIES AT THE END
+*
+*********************************************/
+/*  */
 
 .App {
     /* flex properties */
@@ -23,10 +35,6 @@
     background-repeat: no-repeat;
     background-position: right;
     /*background-size: cover;*/
-}
-
-.App-title {
-    font-size: 1.5em;
 }
 
 /* ANIMATIONS ------------------------------- */
